@@ -1,0 +1,69 @@
+body {
+    background: #00AAE4!important;
+    width: 100%;
+}
+
+.buttonselect {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.card {
+    cursor: pointer;
+    margin-bottom: 25px;
+    border-radius: 0px;
+    background: #00AAE4;
+}
+
+.containerselectbtn {
+    padding-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 0px;
+}
+
+.img-movie-card {
+    width: 160px;
+    height: 220px;
+}
+
+.img-movie {
+    height: auto;
+    text-align: center;
+}
+
+.movieList {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3,
+h6 {
+    color: white;
+}
+
+.img-movie-poster {
+    width: 200px;
+    height: 335px;
+}
+
+.modal-img {
+    text-align: center;
+}
+
+.x-close {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.title-modal {
+    position: absolute;
+    margin-top: 5px;
+}
+
+h5 {
+    margin-top: -30px;
+}
