@@ -1,5 +1,5 @@
 body {
-    background: #00AAE4!important;
+    background:#880F23;
     width: 100%;
 }
 
@@ -12,8 +12,16 @@ body {
     cursor: pointer;
     margin-bottom: 25px;
     border-radius: 0px;
-    background: #00AAE4;
+    background:#880F23;
+    border-color:black;
+    border-style: hidden;
+    border-width: 2px;
 }
+
+.card-text{
+   color:white;
+}
+
 
 .containerselectbtn {
     padding-bottom: 20px;
@@ -66,4 +74,22 @@ h6 {
 
 h5 {
     margin-top: -30px;
+}
+
+.navbar-expand-lg{
+    margin-bottom: 50px; 
+}
+
+.logo {
+    height: 1.5em;
+  }
+
+
+footer{
+    margin-bottom: 10px; 
+    background-color: #403F3F;
+}
+
+.dropdown-menu{
+background-color: #D26272;
 }
