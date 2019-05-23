@@ -27,8 +27,8 @@ const arrayMovies = [
   "Star Trek"
 ];
 
-buttonConsult.addEventListener("click", () => {
-  titleMovie = document.getElementById("movies").value;
+buttonGenre.addEventListener("click", () => {
+  titleMovie = document.getElementById("genre").value;
   loadmovies(titleMovie);
 });
 
