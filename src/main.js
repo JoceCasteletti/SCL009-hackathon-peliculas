@@ -28,7 +28,7 @@ const arrayMovies = [
 ];
 
 buttonGenre.addEventListener("click", () => {
-  titleMovie = document.getElementById("genre").value;
+  titleMovie = document.getElementById("movies").value;
   loadmovies(titleMovie);
 });
 
