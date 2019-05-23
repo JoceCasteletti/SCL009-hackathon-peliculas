@@ -17,15 +17,15 @@
                 <img class="logo" src="./img/logo.png" alt="LogoMovies">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Saber más!
-                          </a>
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="https://www.youtube.com/user/trailersyestrenos" target="_blank">Trailers y estrenos</a>
                             <a class="dropdown-item" href="https://www.espinof.com/categoria/criticas" target="_blank">Críticas de cine</a>
@@ -38,41 +38,36 @@
         <div>
             <h3>Bienvenido a la Peli Sagas!</h3>
             <div class="containerselectbtn">
-
-                <div class="buttonselect"><select id="genre" class="form-control">
-                  
-                <option value= "Genero">Filtrar por genero</option>
-                <option value = "Adventure">Aventura</option>
-                <option value= "Drama">Drama</option>
-                <option value= "Fantasy">Fantasia</option>
-                <option value= "Mystery">Misterio</option>
-                <option value= "Action">Accion</option>
-                <option value= "Sci-Fi">Ciencia Ficcion</option>
-                <option value= "Fantasy">Fantasia</option>
-                </select>
+                <div class="buttonselect">
+                    <select id="genre" class="form-control">
+                        <option value= "Genero">Filtrar por genero</option>
+                        <option value = "Adventure">Aventura</option>
+                        <option value= "Drama">Drama</option>
+                        <option value= "Fantasy">Fantasia</option>
+                        <option value= "Mystery">Misterio</option>
+                        <option value= "Action">Accion</option>
+                        <option value= "Sci-Fi">Ciencia Ficcion</option>
+                    </select>
                 </div>
-
-                <div class="buttonselect"><button id="consultarGenre" class="btn btn-outline-primary">Consultar Genero</button></div>
-
+                <div class="buttonselect"><button id="consultarGenre" class="btn btn-outline-primary">Consultar
+                        Genero</button></div>
                 <div class="buttonselect"><select id="movies" class="form-control">
-<option value= "Sagas">Sagas</option>
-<option value = "Harry Potter">Harry Potter</option>
-<option value= "Transformers">Transformers</option>
-<option value= "Star Wars">Star Wars</option>
-<option value= "Fast and the Furious">Rapido y Furioso</option>
-<option value= "Matrix">Matrix</option>
-<option value= "Hunger Games">Juegos del Hambre</option>
-<option value= "The Lord of The Rings">El Senor de los Anillos</option>
-<option value= "Star Trek">Star Trek</option>
-</select></div>
-                <div class="buttonselect"><button id="consultar" class="btn btn-outline-primary">Consultar Pelicula</button></div>
-
+                        <option value="Sagas">Sagas</option>
+                        <option value="Harry Potter">Harry Potter</option>
+                        <option value="Transformers">Transformers</option>
+                        <option value="Star Wars">Star Wars</option>
+                        <option value="Fast and the Furious">Rapido y Furioso</option>
+                        <option value="Matrix">Matrix</option>
+                        <option value="Hunger Games">Juegos del Hambre</option>
+                        <option value="The Lord of The Rings">El Senor de los Anillos</option>
+                        <option value="Star Trek">Star Trek</option>
+                    </select>
+                </div>
+                <div class="buttonselect"><button id="consultar" class="btn btn-outline-primary">Consultar
+                        Pelicula</button></div>
             </div>
 
-
-
             <div id="moviesList" class="row">
-
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -93,7 +88,6 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-
                 </div>
             </div>
     </section>
@@ -101,6 +95,7 @@
         <div class="text-center py-4">© 2019 Copyright: Peli Sagas</div>
     </footer>
     <div id="modalList"></div>
+    <script src="data.js"></script>
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -108,3 +103,19 @@
 </body>
 
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="movie_list">
+    </div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> -->
