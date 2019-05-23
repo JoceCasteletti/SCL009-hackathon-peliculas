@@ -35,6 +35,7 @@ body {
 .img-movie-card {
     width: 160px;
     height: 220px;
+    box-shadow: 5px 9px 21px -2px rgba(0, 0, 0, 0.75)
 }
 
 .img-movie {
@@ -48,7 +49,11 @@ body {
     margin-right: auto;
 }
 
-h3,
+h3{
+    color:white;
+    margin-top: -40px;
+}
+
 h6 {
     color: white;
 }
@@ -57,10 +62,12 @@ h6 {
     width: 200px;
     height: 335px;
     border: 3px solid black;
+    box-shadow: 5px 9px 21px -2px rgba(0, 0, 0, 0.75)
 }
 
 .modal-img {
     text-align: center;
+    margin-top: 15px;
 }
 
 .x-close {
@@ -74,7 +81,7 @@ h6 {
 }
 
 h5 {
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 .navbar-expand-lg{
@@ -83,12 +90,15 @@ h5 {
 
 .logo {
     height: 1.5em;
+    height: 60px;
+    width: 60px;
   }
 
 
 footer{
     margin-bottom: 10px; 
     background-color: #403F3F;
+    margin-top: 20px;
 }
 
 .dropdown-menu{
