@@ -27,10 +27,6 @@ const arrayMovies = [
   "Star Trek"
 ];
 
-buttonGenre.addEventListener("click", () => {
-  titleMovie = document.getElementById("movies").value;
-  loadmovies(titleMovie);
-});
 
 //evento para capturar la opcion del select
 buttonConsult.addEventListener("click", () => {
