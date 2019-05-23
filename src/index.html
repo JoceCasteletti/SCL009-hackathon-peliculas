@@ -38,33 +38,51 @@
         <div>
             <h3>Bienvenido a la Peli Sagas!</h3>
             <div class="containerselectbtn">
-                <div class="buttonselect"><select id="movies" class="form-control">
-                    <option value= "Sagas">Sagas</option>
-                     <option value= "Star Wars">Star Wars</option>
-                     <option value= "Star Trek">Star Trek</option>
-                     <option value= "Transformers">Transformers</option>
-                     <option value= "The Lord of The Rings">El Senor de los Anillos</option>
-                     <option value= "Fast and the Furious">Rapido y Furioso</option>
-                    <option value= "Matrix">Matrix</option>
-                    <option value = "Harry Potter">Harry Potter</option>
-                    <option value= "Hunger Games">Juegos del Hambre</option>
-                    
-                    
-                    </select>
+
+                <div class="buttonselect"><select id="genre" class="form-control">
+                  
+                <option value= "Genero">Filtrar por genero</option>
+                <option value = "Adventure">Aventura</option>
+                <option value= "Drama">Drama</option>
+                <option value= "Fantasy">Fantasia</option>
+                <option value= "Mystery">Misterio</option>
+                <option value= "Action">Accion</option>
+                <option value= "Sci-Fi">Ciencia Ficcion</option>
+                <option value= "Fantasy">Fantasia</option>
+                </select>
                 </div>
-                <div class="buttonselect"><button id="consultar" class="btn btn-outline-secondary">Consultar Película</button></div>
+
+                <div class="buttonselect"><button id="consultarGenre" class="btn btn-outline-primary">Consultar Genero</button></div>
+
+                <div class="buttonselect"><select id="movies" class="form-control">
+<option value= "Sagas">Sagas</option>
+<option value = "Harry Potter">Harry Potter</option>
+<option value= "Transformers">Transformers</option>
+<option value= "Star Wars">Star Wars</option>
+<option value= "Fast and the Furious">Rapido y Furioso</option>
+<option value= "Matrix">Matrix</option>
+<option value= "Hunger Games">Juegos del Hambre</option>
+<option value= "The Lord of The Rings">El Senor de los Anillos</option>
+<option value= "Star Trek">Star Trek</option>
+</select></div>
+                <div class="buttonselect"><button id="consultar" class="btn btn-outline-primary">Consultar Pelicula</button></div>
+
             </div>
+
+
+
             <div id="moviesList" class="row">
+
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/starwars_carousel.jpg" alt="First slide">
+                            <a id="Star Wars" href="#"><img class="d-block w-100" src="./img/starwars_carousel.jpg" alt="First slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/hp_carousel.jpg" alt="Second slide">
+                            <a id="Harry Potter" href="#"><img class="d-block w-100" src="./img/hp_carousel.jpg" alt="Second slide"></a>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/transformers.jpg" alt="Third slide">
+                            <a id="Transformers" href="#"><img class="d-block w-100" src="img/transformers.jpg" alt="Third slide"></a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
