@@ -1,5 +1,5 @@
 body {
-    background: #880F23;
+    background: white;
     width: 100%;
 }
 
@@ -43,7 +43,8 @@ body {
 }
 
 .movieList {
-    width: 80%;
+    background: #880F23;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,5 +111,5 @@ footer {
 }
 
 .carouselwidth {
-    width: 80%;
+    width: 70%;
 }

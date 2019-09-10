@@ -11,35 +11,36 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">
-                <img class="logo" src="./img/logo.png" alt="LogoMovies">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <section class="movieList">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo" src="./img/logo.png" alt="LogoMovies">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Saber más!
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://www.youtube.com/user/trailersyestrenos" target="_blank">Trailers y estrenos</a>
-                            <a class="dropdown-item" href="https://www.espinof.com/categoria/criticas" target="_blank">Críticas de cine</a>
-                    </li>
-                </ul>
-                </div>
-        </nav>
-    </header>
-    <section class="movieList">
-        <div>
-            <h3>Bienvenido a la Peli Sagas!</h3>
-            <div class="containerselectbtn">
-                <div class="buttonselect">
-                    <select id="genre" class="form-control">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://www.youtube.com/user/trailersyestrenos" target="_blank">Trailers y estrenos</a>
+                                <a class="dropdown-item" href="https://www.espinof.com/categoria/criticas" target="_blank">Críticas de cine</a>
+                        </li>
+                    </ul>
+                    </div>
+            </nav>
+        </header>
+        <section>
+            <div>
+                <h3>Bienvenido a la Peli Sagas!</h3>
+                <div class="containerselectbtn">
+                    <div class="buttonselect">
+                        <select id="genre" class="form-control">
                         <option value= "Genero">Filtrar por genero</option>
                         <option value = "Adventure">Aventura</option>
                         <option value= "Drama">Drama</option>
@@ -48,10 +49,10 @@
                         <option value= "Action">Accion</option>
                         <option value= "Sci-Fi">Ciencia Ficcion</option>
                     </select>
-                </div>
-                <div class="buttonselect"><button id="consultarGenre" class="btn btn-outline-primary">Consultar
+                    </div>
+                    <div class="buttonselect"><button id="consultarGenre" class="btn btn-outline-primary">Consultar
                         Genero</button></div>
-                <div class="buttonselect"><select id="movies" class="form-control">
+                    <div class="buttonselect"><select id="movies" class="form-control">
                         <option value="Sagas">Sagas</option>
                         <option value="Harry Potter">Harry Potter</option>
                         <option value="Transformers">Transformers</option>
@@ -62,34 +63,35 @@
                         <option value="The Lord of The Rings">El Senor de los Anillos</option>
                         <option value="Star Trek">Star Trek</option>
                     </select>
-                </div>
-                <div class="buttonselect"><button id="consultar" class="btn btn-outline-primary">Consultar
-                        Pelicula</button></div>
-            </div>
-
-            <div id="moviesList" class="row">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a id="Star Wars" href="#"><img class="d-block w-100" src="./img/starwars_carousel.jpg" alt="First slide"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a id="Harry Potter" href="#"><img class="d-block w-100" src="./img/hp_carousel.jpg" alt="Second slide"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a id="Transformers" href="#"><img class="d-block w-100" src="img/transformers.jpg" alt="Third slide"></a>
-                        </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="buttonselect"><button id="consultar" class="btn btn-outline-primary">Consultar
+                        Pelicula</button></div>
                 </div>
-            </div>
+
+                <div id="moviesList" class="row">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a id="Star Wars" href="#"><img class="d-block w-100" src="./img/starwars_carousel.jpg" alt="First slide"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a id="Harry Potter" href="#"><img class="d-block w-100" src="./img/hp_carousel.jpg" alt="Second slide"></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a id="Transformers" href="#"><img class="d-block w-100" src="img/transformers.jpg" alt="Third slide"></a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+        </section>
     </section>
     <footer class="bg-dark text-white">
         <div class="text-center py-4">© 2019 Copyright: Peli Sagas</div>
@@ -103,19 +105,3 @@
 </body>
 
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <div id="movie_list">
-    </div>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-</body>
-</html> -->
