@@ -1,5 +1,5 @@
 body {
-    background:#880F23;
+    background: white;
     width: 100%;
 }
 
@@ -12,16 +12,15 @@ body {
     cursor: pointer;
     margin-bottom: 25px;
     border-radius: 0px;
-    background:#880F23;
-    border-color:black;
+    background: #880F23;
+    border-color: black;
     border-style: hidden;
     border-width: 2px;
 }
 
-.card-text{
-   color:white;
+.card-text {
+    color: white;
 }
-
 
 .containerselectbtn {
     padding-bottom: 20px;
@@ -44,13 +43,14 @@ body {
 }
 
 .movieList {
-    width: 80%;
+    background: #880F23;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
     margin-top: -40px;
 }
 
@@ -84,34 +84,32 @@ h5 {
     margin-top: -50px;
 }
 
-.navbar-expand-lg{
-    margin-bottom: 50px; 
+.navbar-expand-lg {
+    margin-bottom: 50px;
 }
 
 .logo {
     height: 1.5em;
     height: 60px;
     width: 60px;
-  }
+}
 
-
-footer{
-    margin-bottom: 10px; 
+footer {
+    margin-bottom: 10px;
     background-color: #403F3F;
     margin-top: 20px;
 }
 
-.dropdown-menu{
-background-color: #D26272;
+.dropdown-menu {
+    background-color: #D26272;
 }
 
 .modal-content {
-   text-align: center;
-   border: 5px solid black;
-   background: #D0CCCD;
+    text-align: center;
+    border: 5px solid black;
+    background: #D0CCCD;
 }
 
-.carouselwidth{
-
-    width: 80%;
+.carouselwidth {
+    width: 70%;
 }

@@ -1,5 +1,5 @@
-const url = 'http://www.omdbapi.com/?apikey=733596b5&type=movie&s=';
-const urlId = 'http://www.omdbapi.com/?apikey=733596b5&type=movie&plot=short&i='
+const url = 'https://www.omdbapi.com/?apikey=733596b5&type=movie&s=';
+const urlId = 'https://www.omdbapi.com/?apikey=733596b5&type=movie&plot=short&i='
 
 const movieSearch = document.getElementById("moviesList");
 const buttonConsult = document.getElementById("consultar");
@@ -166,7 +166,6 @@ buttonGenre.addEventListener("click", () => {
                     
                         <div class="modal-content">
                         <div class="x-close">                     
-
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>

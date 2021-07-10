@@ -55,8 +55,3 @@ window.patchImage = patchImage
 // }
 
 // window.filterByGenre = filterByGenre;
-
-
-
-
-
